@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Inika:wght@400;700&family=Kavoon&display=swap');
+
+container{
+    width: 1280px;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+header{
+    width: 1280px;
+    height: 200px;
+    background-color: #FFE6D5;
+    display: flex;
+    align-items: center;
+}
+
+.titulos{
+   height: 200px;
+   width: 700px;
+   margin-left: 100px;
+}
+
+.logo{
+    width: 240px;
+    height: 145px;
+    margin-left: 80px;
+}
+
+.titulo1{
+    font-family: "Kavoon", serif;
+    font-size: 96px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.titulo2{
+    font-family: "Inika", serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+nav{
+    width: 1280px;
+    height: 60px;
+    background-color: black;
+    font-family: "Convergence", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 100px;
+}
+
+nav ul li{
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:link{
+    color: #FFE6D5;
+}
+
+nav ul li a:visited{
+    color: chartreuse;
+}
+
+nav ul li a:active{
+    color: blueviolet;
+}
+
+nav ul li a:hover{
+    color: aqua;
+    background-color: brown;
+    display: block;
+    width: 200px;
+}
+
+footer{
+    background-color: #FFE6D5;
+    width: 1280px;
+    height: 102px;
+    font-family: "Kavoon", serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
