@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Inika:wght@400;700&family=Kavoon&display=swap');
 *{
 margin: 0;
 padding: 0;
 
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Inika:wght@400;700&family=Kavoon&display=swap');
-
-container{
+#container{
     width: 1280px;
     background-color: brown;
     margin: 0 auto;
@@ -95,6 +93,22 @@ nav ul li a:hover{
     transition: all 0.3s;
 }
 
+main{
+    background-color: #FFE6D5;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+}
+
+article{
+    background-color: antiquewhite;
+    border: 2px solid rgb(8, 1, 1);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
 nav ul li a:link, a:visited, a:active{
     color: bisque;
 }
@@ -102,12 +116,14 @@ nav ul li a:link, a:visited, a:active{
 footer{
     background-color: #FFE6D5;
     width: 1280px;
-    height: 102px;
+    height: 100px;
+    display: flex;
     font-family: "Kavoon", serif;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
     align-items: center;
-    font-weight: bolder;
-    margin-bottom: 20px;
+}
 
+footer a:link, a:visited, a:active{
+    text-decoration: none;
+    font-weight: bold;
 }
