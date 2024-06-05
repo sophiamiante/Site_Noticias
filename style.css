@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Inika:wght@400;700&family=Kavoon&display=swap');
-*{
-margin: 0;
-padding: 0;
 
-}
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Inika:wght@400;700&family=Kavoon&display=swap');
+
+
 #container{
     width: 1280px;
-    background-color: brown;
+    background-color: black;
     margin: 0 auto;
 }
-
 header{
     width: 1280px;
     height: 200px;
@@ -17,113 +14,64 @@ header{
     display: flex;
     align-items: center;
 }
-
 .titulos{
-   height: 200px;
-   width: 700px;
-   margin-left: 100px;
+    height: 200px; 
+    width: 700px;
+    margin-left: 100px;   
 }
-
 .logo{
     width: 240px;
     height: 145px;
     margin-left: 80px;
 }
-
 .titulo1{
     font-family: "Kavoon", serif;
     font-size: 96px;
-    font-weight: bolder;
-    text-align: left;
+    font-weight: bold;
+    text-align: left;    
 }
-
 .titulo2{
     font-family: "Inika", serif;
     font-size: 20px;
     text-align: right;
 }
-
 nav{
     width: 1280px;
-    
-    background-color: black;
-    font-family: "Convergence", sans-serif;
+    height: 62px;
+    background-color: black;    
+    font-family: "Convergence", sans-serif; 
+    font-size: 20px;       
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
-
 nav ul{
     display: flex;
-    justify-content: center;
-    gap: 80px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    justify-content: center;    
+    gap: 100px;  
+    height: 60px;
 }
-
-nav ul li{
-    justify-content: center;
+nav ul li{            
     list-style-type: none;
-  
-}
-
-nav ul li a{
+    height: 62px;
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+}
+nav ul li a{
     text-decoration: none;
-}
+    padding: 18px;
+    height: 62px;
 
-nav ul li a:link{
-    color: #FFE6D5;
 }
+nav ul li a:link, a:visited, a:active{
+    color: bisque;
 
-nav ul li a:visited{
-    color: chartreuse;
 }
-
-nav ul li a:active{
-    color: blueviolet;
-}
-
 nav ul li a:hover{
-    color: rgb(238, 230, 205);
     background-color: orange;
+    color: #fff;
     transition: all 0.3s;
 }
 
 main{
-    background-color: #FFE6D5;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 30px;
-}
-
-article{
-    background-color: antiquewhite;
-    border: 2px solid rgb(8, 1, 1);
-    border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-}
-
-nav ul li a:link, a:visited, a:active{
-    color: bisque;
-}
-
-footer{
-    background-color: #FFE6D5;
-    width: 1280px;
-    height: 100px;
-    display: flex;
-    font-family: "Kavoon", serif;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer a:link, a:visited, a:active{
-    text-decoration: none;
-    font-weight: bold;
+    height: 10rem;
+    background-color: bisque;
 }
